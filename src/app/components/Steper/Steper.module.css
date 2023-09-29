@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    gap: 0 16px;
+    /*padding: 60px 80px;*/
+}
+
+.link {
+    padding: 6px 12px;
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+}
+
+.signup{
+    border-bottom: 1px solid rgba(159, 143, 91, 1);
+    color: rgba(159, 143, 91, 1);
+}
+
+.forgot_password{
+    color: rgba(41, 56, 68, 1)
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}

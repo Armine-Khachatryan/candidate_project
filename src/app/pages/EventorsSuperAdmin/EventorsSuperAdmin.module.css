@@ -1,0 +1,58 @@
+.eventorsContainer{
+    border: 1px dashed #D4D4D4;
+    border-radius: 8px;
+    width: 100%;
+    height: 171px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+.eventorsNumber{
+    font-family: Inter_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: #9F8F5B;
+    margin-bottom: 8px;
+}
+
+.eventorsText{
+    font-family: Inter_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.eventors{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.singleEvent{
+    min-width: 230px;
+    border-radius: 12px;
+    border: 1px solid #9F8F5B;
+    background: #E9E9E9;
+    max-width: 230px;
+    width: 100%;
+    height:152px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter_Medium, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color:#393122;
+    cursor: pointer;
+}

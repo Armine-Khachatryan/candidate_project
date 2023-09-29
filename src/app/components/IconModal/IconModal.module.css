@@ -1,0 +1,59 @@
+.modalInside{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.closingModal{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #D4D4D4;
+    margin-bottom: 48px;
+}
+
+.modalTitle{
+    font-family: Inter_Medium, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #393122;
+}
+
+.closeModalImg{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.iconDragDrop{
+    border: 1px dashed #9F8F5B;
+    border-radius: 8px;
+    width: 100%;
+    margin: auto;
+    max-width: 406px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.saveBtn{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: Inter_Medium, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 100%;
+    max-width: 406px;
+    text-align: center;
+    background-color: #9F8F5B;
+    border-radius: 4px;
+    color: #FFF;
+    margin: 24px auto 16px;
+    cursor: pointer;
+}

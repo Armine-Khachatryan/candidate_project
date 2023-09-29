@@ -1,0 +1,94 @@
+.control{
+    margin-bottom: 24px;
+    width: 100%;
+}
+.control label {
+    display: block;
+    font-family:Inter_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #393122;
+    margin-bottom: 5px;
+}
+.inputDiv{
+    position: relative;
+}
+.control input,
+.select {
+    /*max-width: 560px;*/
+    width: 100%;
+    padding: 10px;
+    font-family: Inter_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #393122;
+    background: #FFFFFF;
+    border:  1px solid #D4D4D4;
+    border-radius: 4px;
+}
+.control input:focus{
+    outline: none;
+    /*color: #FFFFFF;*/
+}
+.control input::placeholder{
+    color: #D4D4D4;
+}
+.invalid{
+    border: 2px solid #CB2D25 !important;
+}
+.textDanger{
+    font-family:Inter_Regular, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #CB2D25;
+    margin-top: 4px;
+    max-width: 520px;
+    width: 100%;
+}
+.inputDiv img{
+    width: 25px;
+    position: absolute;
+    bottom: 11px;
+    right: 35px;
+    cursor:pointer;
+}
+.redOne{
+    color:#CB2D25;
+    margin-left: 5px;
+}
+
+/*@media only screen and (min-width:850px) and (max-width: 1024px) {*/
+/*    .control{*/
+/*        width: 400px;*/
+/*    }*/
+/*    .control label {*/
+/*        width: 400px;*/
+/*    }*/
+/*    .control input{*/
+/*        width: 400px !important;*/
+/*    }*/
+/*    .textDanger{*/
+/*        font-size: 14px;*/
+/*        line-height: 22px;*/
+/*    }*/
+/*}*/
+
+/*@media only screen and (min-width:768px) and (max-width: 850px) {*/
+/*    .control{*/
+/*        width:300px;*/
+/*    }*/
+/*    .control label {*/
+/*        width:300px;*/
+/*    }*/
+/*    .control input{*/
+/*        width:300px !important;*/
+/*    }*/
+/*    .textDanger{*/
+/*        font-size: 14px;*/
+/*        line-height: 22px;*/
+/*    }*/
+/*}*/

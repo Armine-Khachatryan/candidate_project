@@ -1,0 +1,184 @@
+.listedContainer{
+    border: 1px dashed #D4D4D4;
+    border-radius: 8px;
+    width: 100%;
+    height: 171px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+.listedNumber{
+    font-family: Inter_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: #9F8F5B;
+    margin-bottom: 8px;
+}
+
+.listedText{
+    font-family: Inter_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.candidates{
+    margin-bottom: 20px;
+    max-height: 960px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.belowDivCampaign{
+    display: flex;
+}
+
+.politicalContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 240px;
+    border: 1px dashed #D4D4D4;
+    border-radius: 8px;
+    padding: 20px 20px 32px 32px;
+    margin-bottom: 20px;
+}
+
+.imagesDiv{
+    display: flex;
+    gap: 24px;
+    margin-right: 64px;
+}
+
+.polName{
+    font-family: Inter_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #393122;
+    margin-bottom: 8px;
+}
+
+.nameSurname{
+    font-family: Inter_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #393122;
+    margin-bottom: 8px;
+}
+
+.email{
+    font-family: Inter_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #393122;
+    margin-bottom: 8px;
+}
+.phoneNumber{
+    font-family: Inter_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #393122;
+    margin-bottom: 16px;
+}
+.politicalInside{
+    display: flex;
+    width: 100%;
+}
+
+.politicalInsideDiv{
+    display: flex;
+    width: 100%;
+    margin-top: 12px;
+}
+.editDiv{
+    display: flex;
+    align-self: flex-start;
+    cursor: pointer;
+}
+
+.cityDiv{
+    padding: 13px 24px;
+    font-family: Inter_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #393122;
+    border-bottom: 1px solid #F1F1F1;
+    cursor: pointer;
+}
+.cityDiv:first-letter{
+    text-transform: uppercase;
+}
+
+.cityDivActive{
+    padding: 13px 24px;
+    font-family: Inter_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #393122;
+    border-left: 4px solid #9F8F5B;
+    border-bottom: 1px solid #F1F1F1;
+    cursor: pointer;
+}
+.cityDivActive:first-letter{
+    text-transform: uppercase;
+}
+
+.citiesWhole{
+    width: 296px;
+    margin-right: 32px;
+    height: 240px;
+    overflow-y:auto;
+}
+
+.frameStyle{
+    width: 120px;
+    height: 135px;
+    border-radius: 8px;
+    object-fit:cover
+}
+.frameStyle img{
+    width: 120px;
+    height: 135px;
+}
+
+.audioStyling{
+    width: 375px;
+    height: 40px;
+}
+
+.noCompanies{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    height: 100%;
+    font-family: Inter_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 22px;
+    color: #393122;
+}
+
+/*#toBeScrolledTo{*/
+/*    position: relative;*/
+/*    top: 500px;*/
+/*}*/

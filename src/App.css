@@ -1,0 +1,324 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body{
+  background-color:#FFFFFF;
+  min-height: 100vh;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1760px;
+    width: 100%;
+    padding-left:15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.whole{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.upPart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #D4D4D4;
+    margin-bottom: 48px;
+    margin-top:24px
+}
+
+.upTitle{
+    font-family: Inter_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #393122;
+}
+.titleSpan{
+    font-family: Inter_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #D4D4D4;
+    cursor: pointer;
+}
+.titleSpan:hover{
+    color: #393122;
+}
+
+.plusIcon{
+    margin-left: 8px;
+}
+
+.headerFooterBackground{
+    background: #000000;
+}
+
+.singleDragDropProposal{
+    border: 1px dashed #9F8F5B;
+    border-radius: 8px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.selectSearch{
+    max-width: 560px;
+    width: 100%;
+    padding: 10px;
+    font-family: Inter_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #393122;
+    background: #FFFFFF;
+    border:  1px solid #D4D4D4;
+    border-radius: 4px;
+}
+
+.select-search-container{
+    max-width: 1800px;
+    margin-bottom: 24px;
+    width: 100% !important
+}
+.select-search-container:focus{
+    outline: none !important;
+}
+
+.select-search-input{
+    /*max-width: 560px;*/
+    width: 100% !important;
+    padding: 10px !important;
+    font-family: Inter_Regular, sans-serif !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 150% !important;
+    color: #393122 !important;
+    background: #FFFFFF !important;
+    border:  1px solid #D4D4D4 !important;
+    border-radius: 4px !important
+}
+
+.select-search-input::placeholder{
+    color: #D4D4D4;
+}
+
+.select-search-select{
+    max-width: 560px;
+    width: 100% !important;
+    padding: 10px !important;
+    font-family: Inter_Regular, sans-serif !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 150% !important;
+    color: #393122 !important;
+    background: #FFFFFF !important;
+    border:  1px solid #D4D4D4 !important;
+    border-radius: 4px !important
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #9F8F5B;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #9F8F5B;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+.wholeLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 200px;
+}
+.loginInside{
+    padding: 48px 32px;
+    border-radius: 12px;
+    border: 1px solid #D4D4D4;
+    background: #FFF;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.20);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 624px;
+    width: 100%;
+}
+
+.indicatorsSlider{
+    height: 250px;
+    /*padding-left: 50px;*/
+    /*padding-right: 50px;*/
+}
+
+.indicatorsSlider .swiper-slide{
+    max-width: 169px;
+    width: 100% !important;
+    margin: auto;
+}
+
+.indicatorsInside{
+    max-width: 169px;
+    width: 100% !important;
+    margin: auto;
+}
+
+.indicatorsSwiperSlide{
+    max-width: 169px;
+    width: 100% !important;
+    margin: auto;
+}
+
+.title{
+    font-family: Inter_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 32px;
+    font-size: 24px;
+}
+.ReactModal__Overlay--before-close{
+    pointer-events: none
+}
+/*@media only screen  and (max-width: 768px) {*/
+/*    !*.whole {*!*/
+/*    !*    padding-top: 500px;*!*/
+/*    !*}*!*/
+/*}*/
+.selected-day-marker {
+    background-color: #007bff;
+    border-radius: 50%;
+    width: 0.8em;
+    height: 0.8em;
+    margin: 0.2em auto;
+}
+.calendarStyle .selected {
+    background-color: blue;
+    color: white;
+}
+
+.chart-container canvas{
+    width: 1000px;
+    height: 700px;
+}
+
+.chart-container{
+    width: 1000px;
+    /*height: 700px;*/
+}
+
+.proposalsSlider{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.proposalSwiperSlide{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+@font-face {
+  font-family: Inter_Light;
+  src: url(app/assets/fonts/Inter/Inter_Light.ttf);
+}
+
+@font-face {
+  font-family: Inter_Thin;
+  src: url(app/assets/fonts/Inter/Inter_Thin.ttf);
+}
+
+@font-face {
+  font-family: Inter_Regular;
+  src: url(app/assets/fonts/Inter/Inter_Regular.ttf);
+}
+
+@font-face {
+  font-family: Inter_Medium;
+  src: url(app/assets/fonts/Inter/Inter_Medium.ttf);
+}
+
+@font-face {
+  font-family: Inter_SemiBold;
+  src: url(app/assets/fonts/Inter/Inter_SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Inter_Bold;
+  src: url(app/assets/fonts/Inter/Inter_Bold.ttf);
+}
+
+@font-face {
+  font-family:Inter_ExtraBold;
+  src: url(app/assets/fonts/Inter/Inter_ExtraBold.ttf);
+}

@@ -1,0 +1,95 @@
+.label {
+    margin-bottom: 6px;
+    color: #393122;
+}
+
+.container {
+    box-sizing: border-box;
+    border-radius: 4px;
+    flex: 1;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    border: 1px solid rgba(212, 212, 212, .8);
+}
+
+.container > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container:focus {
+    border: 1px solid rgba(212, 212, 212, 1);
+}
+
+.input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.input,
+.textarea {
+    width: 100%;
+    display: block;
+    color:#393122;
+    font: normal normal 16px / normal Inter, serif;
+}
+
+.input::placeholder {
+    color: rgba(212, 212, 212, 1);
+    font: normal normal 16px / normal Inter, serif;
+}
+
+.textarea::placeholder {
+    color: #919395;
+    font: normal normal 16px / normal Inter, serif;
+}
+
+.invalid{
+    border: 2px solid #CB2D25 !important;
+    box-sizing: border-box;
+    border-radius: 4px;
+    flex: 1;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    align-items: center;
+    position: relative;
+    background-color: white;
+}
+
+.textarea {
+    resize: none;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.padding_bottom {
+    padding-bottom: 20px;
+}
+
+.error {
+    color: rgba(173, 43, 43, 1);
+    font-family:Inter_Regular, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #CB2D25;
+    margin-top: 4px;
+    max-width: 520px;
+    width: 100%;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(70%);
+}
+
+

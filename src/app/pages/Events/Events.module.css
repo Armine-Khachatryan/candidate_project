@@ -1,0 +1,128 @@
+.cardDiv{
+    max-width: 405px;
+    width: 100%;
+    height: 401px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    position: relative;
+}
+
+.eventImgDiv{
+    width: 405px;
+    height: 250px;
+}
+
+.eventImg{
+    width: 405px;
+    height: 250px;
+}
+.locationDiv{
+    padding-left: 24px;
+    margin-top: 24px;
+    display: flex;
+    font-family: Inter_Medium, sans-serif;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #393122;
+    margin-bottom: 8px;
+}
+.locationIcon{
+    margin-right: 8px;
+}
+
+.eventName{
+    font-family: Inter_SemiBold,sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #393122;
+    margin-bottom: 8px;
+    padding-left: 24px;
+}
+.theme{
+    font-family: Inter_Medium, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    padding-left: 24px;
+}
+
+.eventTime{
+    font-family: Inter_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #393122;
+    padding-left: 24px;
+}
+
+.cardsAll{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 32px;
+    margin-bottom: 48px;
+}
+.dragAndDropPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dragAndDropInside{
+    max-width: 640px;
+    width: 100%;
+    height: 578px;
+    border: 1px dashed #9F8F5B;
+    border-radius: 8px;
+    padding: 32px;
+}
+
+.imageUploaderDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editIconDiv{
+    padding-top: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+}
+
+.deleteBtn{
+    padding: 12px 32px;
+    font-family: Inter_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #393122;
+    text-align: center;
+    border: 1px solid #9F8F5B;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 24px;
+}
+.deleteBtn:hover{
+    box-shadow: 0px 0px 16px 0px #6B9BF2;
+}

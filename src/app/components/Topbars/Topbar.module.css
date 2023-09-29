@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 4px 80px;
+}
+
+.block {
+    gap: 0 27px;
+}
+
+.link_container {
+    gap: 16px;
+}
+
+.block,
+.link_container {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    color: white !important;
+    padding: 0 10px 10px 10px !important;
+    border-bottom: 2px solid transparent !important;
+}
+
+.active_tab {
+    color: rgba(159, 143, 91, 1) !important;
+    border-bottom: 2px solid rgba(159, 143, 91, 1) !important;
+}

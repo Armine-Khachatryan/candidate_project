@@ -1,0 +1,62 @@
+.iconsContainer{
+    border: 1px dashed #D4D4D4;
+    border-radius: 8px;
+    width: 100%;
+    height: 171px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+.iconsNumber{
+    font-family: Inter_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: #9F8F5B;
+    margin-bottom: 8px;
+}
+
+.iconsText{
+    font-family: Inter_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.icons{
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+.icon{
+    border-radius: 12px;
+    background: #E9E9E9;
+    max-width: 230px;
+    height: 138px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.deleteIconDiv{
+    display: flex;
+    align-self: flex-end;
+    width: 32px;
+    height: 32px;
+    margin-top: 12px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.iconImg{
+    width: 70px;
+    height: 74px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+

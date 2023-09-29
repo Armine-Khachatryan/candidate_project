@@ -1,0 +1,568 @@
+.wholeDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding-top: 50px;
+}
+.fluid {
+    background-color: #071D41;
+    background-image: url("../../assets/images/bg-frame.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    padding: 26px;
+}
+
+.container {
+    padding: 80px;
+    display: flex;
+    color: white;
+    align-items: flex-end;
+    gap: 0 30px;
+    justify-content: space-between;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+    flex: 1
+}
+
+.row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex: 1;
+    width: 100%;
+}
+
+.titleTextPolitics{
+    font-family: Inter_Regular, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFF;
+    max-width: 624px;
+    width: 100%;
+    line-height: 150%;
+}
+.list_right {
+    word-wrap: break-word;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 20px;
+}
+
+.list_right > div {
+    max-width: 470px;
+    margin: 25px 0;
+    text-align: end;
+}
+
+.button_container {
+    display: flex;
+    justify-content: center;
+    gap: 0 20px;
+}
+
+.btn {
+    color: white;
+}
+
+.header {
+    font-size: 32px;
+    padding: 0 80px;
+    font-weight: 600;
+}
+
+.reality_container {
+    color: rgba(159, 143, 91, 1);
+    padding: 30px 0;
+}
+
+.reality_container_row {
+    display: flex;
+    align-items: center;
+}
+
+.reality_container_left {
+    display: flex;
+    justify-content: center;
+    background-image: url("../../assets/images/bg-frame2.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}
+
+.reality_container_row > div {
+    flex: 1
+}
+
+.reality_title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.reality_title + div {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.reality_block > div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 26px;
+}
+
+.reality_block > div > div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px 0;
+
+}
+
+.reality_block > div > div > div {
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+    height: 150px;
+    max-width: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    line-height: 24px;
+}
+
+.reality_block > div > div > div > b {
+    font-weight: 500;
+}
+
+.politics_container {
+    background-color: rgba(7, 29, 65, 1);
+    padding: 40px 80px;
+    background-image: url("../../assets/images/bg-frame-3.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: contain;
+}
+
+.politics_header {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.header_row {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    gap: 0 20px;
+
+}
+
+.header_right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 0 80px;
+    margin-top: 40px;
+}
+
+.card {
+    border-radius: 0 50px 0 50px;
+    height: 637px;
+    width: 439px;
+    display: flex;
+    flex-direction: column;
+}
+
+.free_card {
+    background-color: #282828;
+    color: white;
+}
+
+.title_container {
+    border-radius: 0 80px 80px 0;
+    max-width: 285px;
+    min-height: 79px;
+    align-items: center;
+}
+
+.free_card > .title_container {
+    background-color: white;
+    color: rgba(159, 143, 91, 1);
+    padding: 4px 26px 4px 4px;
+}
+
+.premium_card > .title_container {
+    background-color: #43CAB2;
+    color: black;
+    font-size: 32px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.free_card > .title_container > div {
+    text-align: end;
+}
+
+.free_card > .title_container > div:first-child {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.list_container {
+    display: flex;
+    align-items: center;
+    gap: 0 6px;
+    /*margin: 16px 0;*/
+    flex: 1
+}
+
+.body {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1
+}
+
+.btn_container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.premium_card {
+    background-color: white;
+
+}
+
+.premium_card > .title_container, .premium_btn {
+    background-color: #43CAB2;
+}
+
+.premium_btn {
+    border: 1px solid transparent;
+}
+
+.textDiv{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Inter_Regular, sans-serif;
+    max-width: 624px;
+    width: 100%;
+    color:#9F8F5B;
+}
+
+
+@media only screen and (min-width:950px) and (max-width: 1440px) {
+    .titleTextPolitics{
+        font-size: 22px;
+        max-width: 480px;
+    }
+    .list_right {
+        font-size: 18px;
+    }
+
+    .list_right > div {
+        max-width: 350px;
+        margin-left: 20px;
+    }
+    .container {
+        padding: 40px;
+    }
+    .header {
+        font-size: 28px;
+    }
+
+    .reality_title {
+        font-size: 22px;
+    }
+    .textDiv{
+        padding-right: 20px;
+    }
+    .politics_header {
+        font-size: 42px;
+    }
+    .free_card > .title_container > div:first-child {
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (min-width:600px) and (max-width: 950px) {
+    .titleTextPolitics{
+        font-size: 22px;
+        max-width: 450px;
+    }
+
+    .container {
+        padding: 20px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list_right > div {
+        max-width: 470px;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .list_right{
+       align-items: center;
+    }
+    .block {
+        gap: 0;
+    }
+    .header {
+        font-size: 26px;
+        padding: 0 30px;
+    }
+    .reality_title {
+        font-size: 22px;
+        padding-right: 20px;
+    }
+    .textDiv{
+       padding-right: 20px;
+    }
+    .reality_block{
+        padding: 20px;
+    }
+    .reality_block div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .politics_header {
+        font-size: 34px;
+    }
+
+    .free_card > .title_container > div:first-child {
+        font-size: 26px;
+    }
+    .politics_container {
+        padding: 20px 20px;
+    }
+
+
+    .row{
+        gap: 20px;
+    }
+
+    .container div{
+        font-size: 18px;
+
+    }
+    .container img{
+        margin: 20px auto;
+    }
+
+    .button_container{
+        gap: 0 8px;
+    }
+}
+@media only screen and (min-width:600px) and (max-width: 768px) {
+    .wholeDiv {
+        padding-top: 120px;
+    }
+}
+
+@media only screen and (min-width:425px) and (max-width: 600px) {
+    .wholeDiv{
+        padding-top: 120px;
+    }
+    .titleTextPolitics{
+        font-size: 22px;
+        max-width: 400px;
+        text-align: center;
+    }
+    .container {
+        padding: 20px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list_right > div {
+        max-width: 470px;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .list_right{
+        align-items: center;
+    }
+    .block {
+        gap: 0;
+        align-items: center;
+    }
+
+    .container .row{
+        padding: 20px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container div{
+        font-size: 15px;
+
+    }
+    .container img{
+        margin: 0 auto;
+    }
+    .reality_title {
+        font-size: 22px;
+        text-align: center;
+    }
+    .header {
+        padding: 0;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .reality_container_row{
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .reality_block div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .politics_header {
+        font-size: 32px;
+    }
+    .politics_container {
+        padding: 20px 20px;
+    }
+
+    .free_card > .title_container > div:first-child {
+        font-size: 24px;
+    }
+
+    .header_right{
+        font-size: 13px;
+        flex: 5;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        height: 450px;
+        width: 350px;
+        margin-bottom: 20px;
+    }
+    .textDiv{
+        text-align: center;
+    }
+    .reality_block{
+        padding: 20px;
+    }
+
+}
+@media only screen and (min-width:320px) and (max-width: 425px) {
+    .wholeDiv{
+        padding-top: 120px;
+    }
+    .titleTextPolitics{
+        font-size: 20px;
+        max-width: 300px;
+        text-align: center;
+    }
+    .container {
+        padding: 20px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .container .row{
+        align-items: center;
+        padding: 10px 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .block {
+        gap: 0;
+        align-items: center;
+    }
+    .list_right > div {
+        max-width: 470px;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .list_right{
+        align-items: center;
+    }
+    .button_container {
+       flex-wrap: wrap;
+        gap: 20px;
+    }
+    .reality_title {
+        font-size: 20px;
+        text-align: center;
+    }
+    .header {
+        padding: 0;
+        font-size: 22px;
+        text-align: center;
+        white-space: nowrap;
+        margin-bottom: 20px;
+    }
+    .textDiv{
+        text-align: center;
+    }
+
+    .reality_container_row{
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .reality_block{
+        padding: 20px;
+    }
+    .reality_block div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .politics_header {
+        font-size: 32px;
+    }
+    .free_card > .title_container > div:first-child {
+        font-size: 24px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        height: 480px;
+        width: 290px;
+        margin-bottom: 20px;
+    }
+    .politics_container {
+        padding: 20px 20px;
+    }
+    .header_row div{
+        flex: unset;
+    }
+}

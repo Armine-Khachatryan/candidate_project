@@ -1,0 +1,26 @@
+.typeNameInput{
+    max-width: 515px;
+    width: 100%;
+    margin-top: 64px;
+}
+.titleSwiper{
+    margin-top: 48px;
+    margin-bottom: 24px;
+    font-family: Inter_Medium, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: #393122;
+    line-height: normal;
+}
+
+.singleDragDropProposal{
+    border: 1px dashed #9F8F5B;
+    border-radius: 8px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
